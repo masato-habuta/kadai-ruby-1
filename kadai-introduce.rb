@@ -1,7 +1,8 @@
-str1 = '土生田'
-str2 = '真人'
-str3 = 'です。'
-num = 26
-str4 = '歳です。'
+myouji = '土生田'
+namae = '真人です。'
+fullname = myouji + namae
 
-puts str1 + str2 + str3 + num.to_s + str4
+num = 26
+str = num.to_s + '歳です。'
+
+ puts fullname + str
